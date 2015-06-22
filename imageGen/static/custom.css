@@ -1,0 +1,108 @@
+/*BLUR*/
+.blur img {
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    transition: all 0s ease;
+}
+
+.blur img {
+    -webkit-filter: blur(3px);
+}
+
+.blur img:hover {
+    -webkit-filter: blur(0px);
+}
+
+#id_bitcoinAddress {
+    width: 325px;
+    resize: none;
+    cursor: text;
+}
+
+#whiteurls {
+    text-decoration: none;
+    color: white;
+}
+
+#whiteurls:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#whiteurlsbig {
+    text-decoration: none;
+    color: white;
+}
+
+#whiteurlsbig:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#toplist {
+    color: white;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#headtitle {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: xx-large;
+}
+
+#newq {
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: xx-large;
+    color: white;
+}
+#id_tags
+{
+    text-transform: lowercase;
+}
+#bodycontent {
+    width: 100%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#whitetext {
+    color: white;
+}
+
+#rightsidebar {
+    width: 35%;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+#rightsidebarul {
+    width: 300px;
+}
+
+#bitcoinprice {
+    float: right;
+}
+#wholewrap
+{
+    width:100%;
+}
+#infobar
+{
+    width:65%;
+    padding-right: 40px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}

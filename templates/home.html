@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}
+    home
+{% endblock %}
+{% block headtitle %}
+    <a id="whiteurlsbig" href="/"><i class="fa fa-btc"> </i>TCImageGen</a>
+{% endblock %}
+{% block bodycontent %}
+    <div align="center">
+        <div class="jumbotron" style="width:1200px;height:400px;">
+            <div align="center">
+                <h2>Coinbase Spotrate: {{ price }}</h2>
+
+                <div style="float:left;width:50%">
+                    <code><span style="font-size:large;">Black Merriweather Font Transparent Background</span></code>
+                    <img src="{{ STATIC_URL }}cb_spot_transparent_black_merriweather.png"></img>
+                    <code>
+                        <a href="{{ STATIC_URL }}cb_spot_transparent_black_merriweather.png">{{ absoluteurl }}cb_spot_transparent_black_merriweather.png</a>
+                    </code>
+                </div>
+                <div style="float:right;width:50%">
+                    <code><span style="font-size:large;">White Merriweather Font Transparent Background</span></code>
+                    <img src="{{ STATIC_URL }}cb_spot_transparent_white_merriweather.png"></img>
+                    <code>
+                        <a href="{{ STATIC_URL }}cb_spot_transparent_white_merriweather.png">{{ absoluteurl }}cb_spot_transparent_white_merriweather.png</a>
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div align="center">
+            Created By: <a href="http://baysidebitcoin.com">BaysideBitcoin</a> - Last Updated: 6/22/2015
+        </div>
+    </div>
+{% endblock %}
